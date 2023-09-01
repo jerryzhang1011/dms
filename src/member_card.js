@@ -1,4 +1,6 @@
 import stranger from './stranger.png'
+import bb from "./bb.png"
+import jerry from "./jerry.png"
 export default function MemberCard(prop) {
     let status
     let badge_color
@@ -10,6 +12,8 @@ export default function MemberCard(prop) {
         badge_color = "red"
     }
     let a = 'badge ' + badge_color
+    let b = prop.img
+    
     return (
         <div className='member-card'>
             <div className={a}>{status}</div>

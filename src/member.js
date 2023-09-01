@@ -1,6 +1,5 @@
 import member_data from "./member_data";
 import MemberCard from "./member_card";
-
 export default function Member() {
     let cards = member_data.map(item => {
         return <MemberCard
